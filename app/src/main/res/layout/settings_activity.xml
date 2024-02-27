@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Настройки"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/WiFi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WiFi"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Base_Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Базовая информация"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP для БД"
+        android:textSize="20sp" />
+
+</LinearLayout>
